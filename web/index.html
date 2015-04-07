@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MDF Tool</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div></div>
+        <form action="DellFront.jsp">                      
+            <button name="DellLogInButton" value="">Dell log-in</button>
+        </form>
+        <br>
+        <form action="PartnerFront.jsp">                      
+            <button name="PartnerLogInButton" value="">Partner log-in</button>
+        </form>
+        <br>
+        <form action="UIServlet">  
+             <input type="hidden" name="command" value="endSession">
+            <button name="EndSessionButton" value="">End Session</button>
+        </form>
+        <br>
+    </body>
+</html>
